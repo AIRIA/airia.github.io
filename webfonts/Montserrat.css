@@ -1,0 +1,327 @@
+/** =================== MONTSERRAT =================== **/
+
+/** Montserrat Thin **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-Thin.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-Thin.woff") format("woff");
+}
+
+/** Montserrat Thin-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-ThinItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-ThinItalic.woff") format("woff");
+}
+
+/** Montserrat ExtraLight **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 200;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-ExtraLight.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-ExtraLight.woff") format("woff");
+}
+
+/** Montserrat ExtraLight-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 200;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-ExtraLightItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-ExtraLightItalic.woff") format("woff");
+}
+
+/** Montserrat Light **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-Light.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-Light.woff") format("woff");
+}
+
+/** Montserrat Light-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-LightItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-LightItalic.woff") format("woff");
+}
+
+/** Montserrat Regular **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    src: url("Montserrat-Regular.woff2") format("woff2"),
+         url("Montserrat-Regular.woff") format("woff");
+}
+
+/** Montserrat Regular-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: italic;
+    src: url("Montserrat-Italic.woff2") format("woff2"),
+         url("Montserrat-Italic.woff") format("woff");
+}
+
+/** Montserrat Medium **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    src: url("Montserrat-Medium.woff2") format("woff2"),
+         url("Montserrat-Medium.woff") format("woff");
+}
+
+/** Montserrat Medium-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    src: url("Montserrat-MediumItalic.woff2") format("woff2"),
+         url("Montserrat-MediumItalic.woff") format("woff");
+}
+
+/** Montserrat SemiBold **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-SemiBold.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-SemiBold.woff") format("woff");
+}
+
+/** Montserrat SemiBold-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-SemiBoldItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-SemiBoldItalic.woff") format("woff");
+}
+
+/** Montserrat Bold **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    src: url("Montserrat-Bold.woff2") format("woff2"),
+         url("Montserrat-Bold.woff") format("woff");
+}
+
+/** Montserrat Bold-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: italic;
+    src: url("Montserrat-BoldItalic.woff2") format("woff2"),
+         url("Montserrat-BoldItalic.woff") format("woff");
+}
+
+/** Montserrat ExtraBold **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-ExtraBold.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-ExtraBold.woff") format("woff");
+}
+
+/** Montserrat ExtraBold-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-ExtraBoldItalic.woff") format("woff");
+}
+
+/** Montserrat Black **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-Black.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-Black.woff") format("woff");
+}
+
+/** Montserrat Black-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/Montserrat-BlackItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/Montserrat-BlackItalic.woff") format("woff");
+}
+
+/** =================== MONTSERRAT ALTERNATES =================== **/
+
+/** Montserrat Alternates Thin **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 100;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-Thin.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-Thin.woff") format("woff");
+}
+
+/** Montserrat Alternates Thin-Italic **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 100;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-ThinItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-ThinItalic.woff") format("woff");
+}
+
+/** Montserrat Alternates ExtraLight **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 200;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-ExtraLight.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-ExtraLight.woff") format("woff");
+}
+
+/** Montserrat Alternates ExtraLight-Italic **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 200;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-ExtraLightItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-ExtraLightItalic.woff") format("woff");
+}
+
+/** Montserrat Alternates Light **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-Light.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-Light.woff") format("woff");
+}
+
+/** Montserrat Alternates Light-Italic **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 300;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-LightItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-LightItalic.woff") format("woff");
+}
+
+/** Montserrat Alternates Regular **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-style: normal;
+    src: url("MontserratAlternates-Regular.woff2") format("woff2"),
+         url("MontserratAlternates-Regular.woff") format("woff");
+}
+
+/** Montserrat Alternates Regular-Italic **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-style: italic;
+    src: url("MontserratAlternates-Italic.woff2") format("woff2"),
+         url("MontserratAlternates-Italic.woff") format("woff");
+}
+
+/** Montserrat Alternates Medium **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 500;
+    font-style: normal;
+    src: url("MontserratAlternates-Medium.woff2") format("woff2"),
+         url("MontserratAlternates-Medium.woff") format("woff");
+}
+
+/** Montserrat Alternates Medium-Italic **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 500;
+    font-style: italic;
+    src: url("MontserratAlternates-MediumItalic.woff2") format("woff2"),
+         url("MontserratAlternates-MediumItalic.woff") format("woff");
+}
+
+/** Montserrat Alternates SemiBold **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-SemiBold.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-SemiBold.woff") format("woff");
+}
+
+/** Montserrat Alternates SemiBold-Italic **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-SemiBoldItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-SemiBoldItalic.woff") format("woff");
+}
+
+/** Montserrat Alternates Bold **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    font-style: normal;
+    src: url("MontserratAlternates-Bold.woff2") format("woff2"),
+         url("MontserratAlternates-Bold.woff") format("woff");
+}
+
+/** Montserrat Alternates Bold-Italic **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    font-style: italic;
+    src: url("MontserratAlternates-BoldItalic.woff2") format("woff2"),
+         url("MontserratAlternates-BoldItalic.woff") format("woff");
+}
+
+/** Montserrat Alternates ExtraBold **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 800;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-ExtraBold.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-ExtraBold.woff") format("woff");
+}
+
+/** Montserrat Alternates ExtraBold-Italic **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 800;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-ExtraBoldItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-ExtraBoldItalic.woff") format("woff");
+}
+
+/** Montserrat Alternates Black **/
+@font-face {
+    font-family: "Montserrat Alternates";
+    font-weight: 900;
+    font-style: normal;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-Black.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-Black.woff") format("woff");
+}
+
+/** Montserrat Alternates Black-Italic **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: italic;
+    src: url("https://www.shorttv.live/webfonts/MontserratAlternates-BlackItalic.woff2") format("woff2"),
+         url("https://www.shorttv.live/webfonts/MontserratAlternates-BlackItalic.woff") format("woff");
+}

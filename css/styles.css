@@ -1,0 +1,718 @@
+/* Common styles for both PC and mobile */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.content1 {
+	position: relative;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.25rem;
+	border-bottom: 3px solid rgba(134, 134, 134, 0.5);
+}
+
+.logo {
+	flex: 1;
+}
+
+.logo img {
+	width: 9.375rem;
+	height: 3.125rem;
+	max-width: 100%;
+	height: auto;
+}
+.logo.max{
+	display:flex;
+	align-items: center;
+}
+.logo.max img {
+	width: 3.8rem;
+	max-width: 100%;
+	height: auto;
+	margin-right: 1.25rem;
+}
+
+.logo.max .title{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+.nav {
+	text-align: right;
+}
+
+.nav a {
+	margin-left: 1.25rem;
+	text-decoration: none;
+	color: white;
+}
+
+.slogan {
+	text-align: center;
+	padding: 1.25rem;
+}
+
+.slogan-top {
+	color: var(--neutral-white, #FFF);
+	text-align: center;
+
+	font-size: 3.625rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+.slogan-bottom {
+	margin-top: 3.375rem;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.625rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+.download {
+	display: flex;
+	justify-content: center;
+	padding: 1.25rem;
+}
+
+.pc-button {
+	margin: 50px 30px 0 30px;
+}
+
+.pc-button img {
+	width: 15rem;
+	height: 5.3125rem;
+}
+
+.mobile-button {
+	display: none;
+}
+
+
+
+.section-title {
+	color: #000;
+	font-size: 1.75rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 200%;
+}
+
+.section-title-span {
+	color: #000;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%;
+}
+
+
+.episode {
+	display: flex;
+	margin: 2.5rem 0;
+	padding-bottom: 2.25rem;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.episode-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.episode-details {
+	margin-left: 1rem;
+}
+
+.episode-title {
+	margin: 0;
+	color: #3A4B5B;
+	font-family: Montserrat;
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 30px */
+}
+
+.episode-description {
+	margin: 8px 0 0;
+	color: #3A4B5B;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	/* 21px */
+}
+
+.episode-description0 {
+	display: -webkit-box; /* 必须设置display属性为-webkit-box */
+	overflow: hidden; /* 超出部分隐藏 */
+	text-overflow: ellipsis; /* 显示省略号 */
+	-webkit-line-clamp: 3; /* 限制显示两行 */
+	-webkit-box-orient: vertical; /* 垂直方向上的换行 */
+}
+
+.episode-count {
+	margin: 6px 0 0;
+	color: #868686;
+	font-family: Montserrat;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+}
+
+.episode-count0 {
+	margin: 14px 0 0;
+}
+
+.company-intro {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contact,
+.legal {
+	flex: 1;
+	margin-bottom: 20px;
+}
+
+.company-intro h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.content3 {
+	text-align: left;
+	flex-direction: column;
+}
+
+ul {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+ul li {
+	margin: 15px 0;
+	list-style-type: none;
+	display: flex;
+
+}
+
+.con3-text{
+		background-color: rgba(217, 217, 217, 0.2);
+		padding-top: 1rem;
+	}
+
+.footer {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.payment-box{
+	display:none;
+	position:sticky;
+	top:0;
+	z-index: 1;
+	background: linear-gradient(180deg, #FF8D42 0%, #FF5104 100%);
+	height: 78px;
+	cursor: pointer;
+}
+.payment-box .payment{
+	display:flex;
+	justify-content: center;
+}
+.payment-box .payment .text-box{
+	padding:11px 0;
+	margin-right: 13px;
+}
+.payment-box .payment .text-box .title{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 28.5px */
+	margin: 0;
+}
+.payment-box .payment .text-box .des{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%; /* 24px */
+	margin: 0;
+}
+.payment-box .payment .img-box{
+	display:flex;
+	align-items: center;
+}
+.payment-box .payment .img-box .bg{
+	height:78px;
+}
+.payment-box .payment .img-box .btn-box{
+	position:relative;
+	width: 216px;
+	height: 36px;
+	left:-15px;
+}
+.payment-box .payment .img-box .btn{
+	position:relative;
+	z-index: 1;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height:100%;
+	border-radius: 18.5px;
+	background: #FFF;
+	color: #FF5306;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; /* 25.5px */
+}
+.payment-box .payment .img-box .btn-bg{
+	position: absolute;
+	content:"";
+	width: 100%;
+    height: 100%;
+	border-radius: 18.5px;
+	z-index: 0;
+	top: 5px;
+    left: 4px;
+	opacity: 0.3;
+	background: #FFF;
+}
+.payment-box .payment .img-box .btn .arrow{
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+}
+.phone-br{
+	display:none;
+}
+/* Media query for desktop */
+@media (min-width: 769px) {
+	.header-text{
+		background-image: url('../img/bg_pc.png');
+		background-size: cover;
+		background-position: center top;
+	}
+	.content1 {
+		background-image: url('../img/bg_pc.png');
+		background-size: cover;
+		background-position: center top;
+		height: 100vh;
+		max-height: 53.25rem;
+	}
+
+	.header {
+		max-width: 75rem;
+		margin: 0 auto;
+	}
+
+	.slogan {
+		margin-top: 10rem;
+	}
+
+	.content2 {
+		width: 75rem;
+		max-width: 100%;
+		margin: 6.25rem auto 0;
+		padding: 1.25rem;
+	}
+
+	.episodes {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.episode {
+		width: 45.3333%;
+		/* Two episodes per row */
+	}
+
+	.content3 {
+		width: 75rem;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.company-intro {
+		width: 75rem;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	ul {
+		color: #000;
+		font-size: 1.5625rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 130%;
+	}
+
+	ul li {
+		color: #000;
+		font-size: 1.25rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+	}
+
+	.footer {
+		color: var(--neutral-black-20, #9F9FA2);
+		text-align: center;
+		font-size: 1rem;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+		letter-spacing: 0.32px;
+	}
+
+	.text-intro {
+		width: 75rem;
+		max-width: 100%;
+		margin: 0 auto;
+		line-height: 200%;
+	}
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+
+	body,
+	html {
+		width: 100%;
+	}
+
+	.logo img {
+		width: 4.69rem;
+		height: 1.56rem;
+		max-width: 50%;
+		height: auto;
+	}
+
+	.nav {
+		display: none;
+	}
+	.header-text{
+		background-image: url('../img/bg_mobile.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	.header {
+		padding: 33px 28px 4px 28px;
+		border-bottom:none;
+	}
+	.header.pb0{
+		padding-bottom:0 !important;
+	}
+	.header .logo img{
+		width: 57.251px;
+		height: 24px;
+	}
+	
+	.logo.max img {
+		width: 1.69rem;
+		height: 1.69rem;
+		flex-shrink: 0;
+		margin-right: 0.563rem;
+	}
+	
+	.logo.max .title{
+		font-size: 14.4px;
+	}
+
+	.content1 {
+		background-image: url('../img/bg_mobile.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+
+	.slogan-top {
+		color: var(--Neutral-White, #FFF);
+		text-align: center;
+		text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.24);
+		font-family: Montserrat;
+		font-size: 1.375rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 150%;
+		text-transform: capitalize;
+	}
+	.phone-br{
+		display:block;
+	}
+	.slogan-bottom {
+		margin-top: 1.4375rem;
+		color: #FFF;
+		text-align: center;
+		text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.24);
+		font-family: Montserrat;
+		font-size: 0.9375rem;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 150%;
+	}
+
+	.slogan {
+		margin-top: 4rem;
+		padding: 0.625rem;
+		padding: 0rem;
+		padding-top: 0.13rem;
+	}
+
+	.download{
+		margin-top: 8.9375rem;
+		padding: 0rem;
+		padding-bottom: 3.625rem;
+	}
+	.pc-button {
+		display: none;
+	}
+
+	.mobile-button {
+		display: block;
+		margin-top: 0rem;
+	}
+
+	.mobile-button img {
+		width: 10.375rem;
+		height: 2.25rem;
+	}
+
+	.content2 {
+		max-width: 100%;
+		margin: 0;
+		padding: 2.5rem;
+		padding-top: 2rem;
+	}
+
+	.section-title {
+		font-size: 0;
+	}
+
+	.section-title-span {
+		color: #000;
+		font-family: Montserrat;
+		font-size: 1.0625rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 150%;
+	}
+	.section-title-span2{
+		color: #000;
+		font-family: Montserrat;
+		font-size: 0.8125rem;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 150%; /* 19.5px */
+	}
+	.episode-image img{
+		width: 4.625rem;
+		height: 6.14rem;
+		flex-shrink: 0;
+		border-radius: 1.857px;
+	}
+	.episode-details{
+		margin-left: 1.0625rem;
+	}
+	.episode-title{
+		color: #3A4B5B;
+		font-family: Montserrat;
+		font-size: 0.875rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 130%;
+		margin: 0px 0 5px 0;
+		display: -webkit-box; /* 必须设置display属性为-webkit-box */
+		overflow: hidden; /* 超出部分隐藏 */
+		text-overflow: ellipsis; /* 显示省略号 */
+		-webkit-line-clamp: 2; /* 限制显示两行 */
+		-webkit-box-orient: vertical; /* 垂直方向上的换行 */
+	}
+	.episode-description{
+		margin: 0;
+		color: #3A4B5B;
+		font-family: Montserrat;
+		font-size: 0.6875rem;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 150%;
+    display: -webkit-box; /* 必须设置display属性为-webkit-box */
+		overflow: hidden; /* 超出部分隐藏 */
+		text-overflow: ellipsis; /* 显示省略号 */
+		-webkit-line-clamp: 2; /* 限制显示两行 */
+		-webkit-box-orient: vertical; /* 垂直方向上的换行 */
+	}
+	.episode-description3 {
+		display: -webkit-box; /* 必须设置display属性为-webkit-box */
+		overflow: hidden; /* 超出部分隐藏 */
+		text-overflow: ellipsis; /* 显示省略号 */
+		-webkit-line-clamp: 3; /* 限制显示两行 */
+		-webkit-box-orient: vertical; /* 垂直方向上的换行 */
+	}
+	.episode-count{
+		margin: 8px 0 0;
+		color: #868686;
+		font-family: Montserrat;
+		font-size: 0.6875rem;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 150%; /* 16.5px */
+	}
+	.episodes {
+		flex-direction: column;
+	}
+
+	.episode {
+		align-items: flex-start;
+		width: 100%;
+		padding-bottom: 16.36px;
+		margin: 1.9375rem 0 0;
+	}
+
+	.content3 {
+		max-width: 100%;
+		margin: 0;
+		background-color: rgba(217, 217, 217, 0.2);
+		padding: 1.5rem 2.5rem 2.25rem;
+	}
+	.company-intro h2{
+		margin: 0;
+		color: #000;
+		font-family: Montserrat;
+		font-size: 0.9375rem;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 130%;
+	}
+	.company-intro ul{
+		margin: 0;
+	}
+	.company-intro ul li{
+		margin: 8px 0 0; 
+		color: #000;
+		font-family: Montserrat;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+	}
+	.company-intro ul li:first-child {
+		margin:  12px 0 0; 
+	}
+	.con3-text{
+		max-width: 100%;
+		margin: 0;
+		padding: 1.25rem;
+	}
+
+	.company-intro {
+		position:relative;
+		margin: 0;
+		flex-direction: column;
+	}
+	.company-intro::after{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1px; /* 模拟 0.5px 边框 */
+		background: #d9d9d9; /* 边框颜色 */
+		transform: scaleY(0.5);
+	}
+	.footer {
+		max-width: 100%;
+		margin: 12px 0 0;
+		text-align: left;
+		color: var(--neutral-black-20, #9F9FA2);
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+		letter-spacing: 0.16px;
+		padding-bottom: 0;
+	}
+	
+	.text-intro {
+		max-width: 100%;
+		margin: 0;
+		padding: 1.25rem;
+		line-height: 200%;
+	}
+
+		
+.payment-box{
+	height: 56px;
+}
+.payment-box .payment{
+	height:100%;
+}
+.payment-box .payment .text-box{
+	padding: 11px 0 11px 12px;
+	margin-right: 0px;
+}
+.payment-box .payment .text-box .title{
+	font-size: 10.5px;
+}
+.payment-box .payment .text-box .des{
+	font-size: 9px;
+}
+.payment-box .payment .img-box{
+	display:flex;
+	align-items: center;
+}
+.payment-box .payment .img-box .bg{
+	height: 40px;
+}
+.payment-box .payment .img-box .btn-box{
+	width: 97.03px;
+    height: 18px;
+	left: 0;
+	margin-left: 3.85px;
+}
+.payment-box .payment .img-box .btn{
+	border-radius: 9.487px;
+	font-size: 9px;
+}
+.payment-box .payment .img-box .btn-bg{
+	border-radius: 9.487px;
+	top: 3px;
+    left: 1px; 
+}
+.payment-box .payment .img-box .btn .arrow{
+	width: 10.256px;
+	height: 10.256px;
+	margin-left: 5px;
+}
+}
